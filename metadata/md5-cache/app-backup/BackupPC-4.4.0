@@ -1,0 +1,14 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=compile install postinst prepare prerm setup
+DEPEND=>=dev-perl/BackupPC-XS-0.62 dev-lang/perl dev-perl/Archive-Zip dev-perl/CGI dev-perl/File-Listing dev-perl/File-RsyncP dev-perl/Time-ParseDate >=app-admin/webapp-config-1.50.15
+DESCRIPTION=High-performance backups to a server's disk
+EAPI=7
+HOMEPAGE=https://backuppc.github.io/backuppc/
+IUSE=rss samba rrdtool systemd vhosts
+KEYWORDS=amd64 x86
+LICENSE=GPL-3
+RDEPEND=>=dev-perl/BackupPC-XS-0.62 dev-lang/perl dev-perl/Archive-Zip dev-perl/CGI dev-perl/File-Listing dev-perl/File-RsyncP dev-perl/Time-ParseDate acct-group/backuppc acct-user/backuppc rrdtool? ( net-analyzer/rrdtool[graph] ) rss? ( dev-perl/XML-RSS ) samba? ( net-fs/samba ) >=net-misc/rsync-bpc-3.1.2.2 net-misc/rsync virtual/httpd-cgi virtual/mta >=app-admin/webapp-config-1.50.15
+SLOT=0
+SRC_URI=https://github.com/BackupPC/BackupPC/releases/download/4.4.0/BackupPC-4.4.0.tar.gz
+_eclasses_=multilib	98584e405e2b0264d37e8f728327fed1	systemd	69be00334d73f9f50261554b94be0879	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	webapp	16783e418aca3ffa461d68310bf7ab12
+_md5_=7f2d7ae6b07a129285fe237b591799ce
