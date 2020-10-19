@@ -6,7 +6,7 @@ acct-user/backuppc 0: user for backuppc
 acct-user/nfcapd 0: user for nfcapd
 acct-user/nfsen 0: user for nfsen
 acct-user/smcroute 0: user for smcroute
-app-backup/BackupPC 4.4.0: High-performance backups to a server's disk
+app-backup/backuppc 4.4.0: High-performance backups to a server's disk
 app-misc/nsjail 9999: nsjail is a process isolation tool for Linux.
 dev-libs/caf 0.17.6: The C++ Actor Framework (CAF)
 dev-perl/BackupPC-XS 0.62: BackupPC::XS is a perl-callable module for BackupPC

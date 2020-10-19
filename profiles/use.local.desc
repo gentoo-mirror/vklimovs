@@ -2,7 +2,7 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-app-backup/BackupPC:rrdtool - Enable graphs of the pool usage
+app-backup/backuppc:rrdtool - Enable graphs of the pool usage
 dev-libs/caf:debug - Raises log-level to DEBUG, enables runtime checks and address sanitizer
 dev-libs/caf:doc - Compiles and installs the documentation as PDF and HTML
 dev-libs/caf:examples - Compiles and installs the provided example binaries and sources
