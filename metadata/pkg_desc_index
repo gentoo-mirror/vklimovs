@@ -10,7 +10,7 @@ app-backup/backuppc 4.4.0: High-performance backups to a server's disk
 app-misc/nsjail 9999: nsjail is a process isolation tool for Linux.
 dev-libs/caf 0.17.6: The C++ Actor Framework (CAF)
 dev-perl/BackupPC-XS 0.62: BackupPC::XS is a perl-callable module for BackupPC
-dev-python/Authlib 0.15.1 0.15.2: The ultimate Python library in building OAuth and OpenID Connect servers.
+dev-python/Authlib 0.15.2: The ultimate Python library in building OAuth and OpenID Connect servers.
 net-analyzer/nfdump 1.6.21: A set of tools to collect and process netflow data
 net-analyzer/nfsen 1.3.8: Graphical netflow analyzer using nfdump tools
 net-analyzer/zeek 3.0.11 3.2.2: The Zeek Network Security Monitor
