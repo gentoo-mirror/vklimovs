@@ -1,7 +1,9 @@
+acct-group/authelia 0: group for authelia
 acct-group/backuppc 0: group for backuppc
 acct-group/nfcapd 0: group for nfcapd
 acct-group/nfsen 0: group for nfsen
 acct-group/smcroute 0: group for smcroute
+acct-user/authelia 0: user for authelia
 acct-user/backuppc 0: user for backuppc
 acct-user/nfcapd 0: user for nfcapd
 acct-user/nfsen 0: user for nfsen
@@ -18,4 +20,5 @@ net-analyzer/zeek 3.0.11 3.2.2: The Zeek Network Security Monitor
 net-firewall/pkt_netflow 9999: Standalone kernel netflow module
 net-misc/rsync-bpc 3.1.3.0: rsync version needed for BackupPC 4.x
 net-misc/smcroute 2.4.4: Static multicast routing for UNIX
+net-nds/authelia 4.23.3: The Single Sign-On Multi-Factor portal for web apps
 net-nds/dex 2.26.0: OpenID Connect and OAuth 2.0 Provider with Pluggable Connectors
