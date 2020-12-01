@@ -10,6 +10,7 @@ dev-libs/caf:opencl - Compiles against the provided opencl implementation
 dev-libs/caf:openssl - Use dev-libs/openssl to provide support communication over TLS
 dev-libs/caf:test - Builds the provided unit tests
 dev-libs/caf:tools - Builds caf-run and caf-vec tools
+mail-mta/opensmtpd:mta - Enable this to install as system-wide MTA
 net-analyzer/nfdump:ftconv - Build the flow-tools to nfdump converter
 net-analyzer/nfdump:jnat - Build nfudmp to support JunOS NAT event logging
 net-analyzer/nfdump:nfpcapd - Build nfpcapd collector to create netflow data from precollected pcap traffic

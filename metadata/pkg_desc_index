@@ -14,6 +14,7 @@ dev-go/broccoli 1.0.3: Utility to to embed static files in Go using brotli compr
 dev-libs/caf 0.17.6: The C++ Actor Framework (CAF)
 dev-perl/BackupPC-XS 0.62: BackupPC::XS is a perl-callable module for BackupPC
 dev-python/Authlib 0.15.2: The ultimate Python library in building OAuth and OpenID Connect servers.
+mail-mta/opensmtpd 6.7.1_p1: Lightweight but featured SMTP daemon from OpenBSD
 net-analyzer/nfdump 1.6.22: A set of tools to collect and process netflow data
 net-analyzer/nfsen 1.3.8: Graphical netflow analyzer using nfdump tools
 net-analyzer/zeek 3.0.11 3.2.2: The Zeek Network Security Monitor
