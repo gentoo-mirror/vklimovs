@@ -44,7 +44,6 @@ RDEPEND="${DEPEND}"
 S=${WORKDIR}/${P/_}
 
 PATCHES=(
-	"${FILESDIR}"/"${P}"-53f0cdf454449c1e0bd7441bdb9992a49012428d.patch
 	"${FILESDIR}"/"${P}"-enable-ecdsa-with-openssl.patch
 )
 
