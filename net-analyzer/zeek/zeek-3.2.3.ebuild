@@ -26,7 +26,7 @@ RDEPEND="dev-libs/caf:0=
 	kerberos? ( virtual/krb5 )
 	python? ( ${PYTHON_DEPS}
 		$(python_gen_cond_dep '
-			dev-python/pybind11[${PYTHON_MULTI_USEDEP}]
+			~dev-python/pybind11-2.5.0[${PYTHON_MULTI_USEDEP}]
 		')
 	)
 	sendmail? ( virtual/mta )
@@ -41,31 +41,30 @@ REQUIRED_USE="zeekctl? ( python )
 	python? ( ${PYTHON_REQUIRED_USE} )"
 
 PATCHES=(
-	"${FILESDIR}"/${PN}-3.0-add-site-policy-dir-config.patch
-	"${FILESDIR}"/${PN}-3.0-no-legacy-ps.patch
-	"${FILESDIR}"/${PN}-3.0-no-strip.patch
-	"${FILESDIR}"/${PN}-3.0-no-uninitialized-warning.patch
-	"${FILESDIR}"/${PN}-3.0-no-wrapper-scripts.patch
+	"${FILESDIR}"/${PN}-3.2-add-site-policy-dir-config.patch
+	"${FILESDIR}"/${PN}-3.2-no-strip.patch
+	"${FILESDIR}"/${PN}-3.2-no-uninitialized-warning.patch
+	"${FILESDIR}"/${PN}-3.2-no-wrapper-scripts.patch
 	"${FILESDIR}"/${PN}-remove-unnecessary-remove.patch
 )
 
 src_prepare() {
-	rm -rf aux/broker/3rdparty/caf \
-		aux/broker/bindings/python/3rdparty \
+	rm -rf auxil/broker/3rdparty/caf \
+		auxil/broker/bindings/python/3rdparty \
 		src/3rdparty/caf || die
 
 	if use python; then
 		sed -i 's:.*/3rdparty/pybind11/.*:if(DISABLE_PYTHON_BINDINGS):' \
-			aux/broker/CMakeLists.txt || die
+			auxil/broker/CMakeLists.txt || die
 		sed -i 's:.*/3rdparty/pybind11/.*::' \
-			aux/broker/bindings/python/CMakeLists.txt || die
+			auxil/broker/bindings/python/CMakeLists.txt || die
 	fi
 
 	if ! use static-libs; then
 		sed -i 's:add_library(paraglob STATIC:add_library(paraglob SHARED:' \
-		aux/paraglob/src/CMakeLists.txt
+		auxil/paraglob/src/CMakeLists.txt
 		sed -i 's:DESTINATION lib:DESTINATION ${INSTALL_LIB_DIR}:' \
-		aux/paraglob/src/CMakeLists.txt
+		auxil/paraglob/src/CMakeLists.txt
 	fi
 
 	sed -i 's:if (LIBMMDB_FOUND):if (LIBMMDB_FOUND AND ENABLE_MMDB):' \
@@ -116,7 +115,7 @@ src_install() {
 	python_optimize
 	use zeekctl && python_optimize "${ED}"/usr/lib/zeekctl
 
-	keepdir /var/log/"${PN}" /var/spool/"${PN}"/tmp
+	keepdir /var/log/"${PN}" /var/spool/"${PN}"/{tmp,brokerstore}
 
 	# Remove compat symlinks
 	rm -f "${ED}"/usr/bin/broctl \
