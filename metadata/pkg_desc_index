@@ -11,12 +11,12 @@ acct-user/smcroute 0: user for smcroute
 app-backup/backuppc 4.4.0: High-performance backups to a server's disk
 app-misc/nsjail 9999: nsjail is a process isolation tool for Linux.
 dev-go/broccoli 1.0.3: Utility to to embed static files in Go using brotli compression
-dev-libs/caf 0.17.6: The C++ Actor Framework (CAF)
+dev-libs/caf 0.17.6 0.18.2: The C++ Actor Framework (CAF)
 dev-perl/BackupPC-XS 0.62: BackupPC::XS is a perl-callable module for BackupPC
 dev-python/Authlib 0.15.3: The ultimate Python library in building OAuth and OpenID Connect servers.
-net-analyzer/nfdump 1.6.22: A set of tools to collect and process netflow data
+net-analyzer/nfdump 1.6.22 1.6.22-r1: A set of tools to collect and process netflow data
 net-analyzer/nfsen 1.3.8: Graphical netflow analyzer using nfdump tools
-net-analyzer/zeek 3.0.12 3.2.3: The Zeek Network Security Monitor
+net-analyzer/zeek 3.0.12 3.2.3 4.0.0: The Zeek Network Security Monitor
 net-firewall/pkt_netflow 9999: Standalone kernel netflow module
 net-misc/rsync-bpc 3.1.3.0: rsync version needed for BackupPC 4.x
 net-misc/smcroute 2.4.4: Static multicast routing for UNIX
