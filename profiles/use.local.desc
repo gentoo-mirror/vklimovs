@@ -6,7 +6,6 @@ app-backup/backuppc:rrdtool - Enable graphs of the pool usage
 dev-libs/caf:debug - Raises log-level to DEBUG, enables runtime checks and address sanitizer
 dev-libs/caf:doc - Compiles and installs the documentation as PDF and HTML
 dev-libs/caf:examples - Compiles and installs the provided example binaries and sources
-dev-libs/caf:opencl - Compiles against the provided opencl implementation
 dev-libs/caf:openssl - Use dev-libs/openssl to provide support communication over TLS
 dev-libs/caf:test - Builds the provided unit tests
 dev-libs/caf:tools - Builds caf-run and caf-vec tools
