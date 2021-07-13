@@ -16,7 +16,7 @@ dev-perl/BackupPC-XS 0.62: BackupPC::XS is a perl-callable module for BackupPC
 dev-python/Authlib 0.15.3: The ultimate Python library in building OAuth and OpenID Connect servers.
 net-analyzer/nfdump 1.6.23: A set of tools to collect and process netflow data
 net-analyzer/nfsen 1.3.8: Graphical netflow analyzer using nfdump tools
-net-analyzer/zeek 4.0.2 4.0.3: The Zeek Network Security Monitor
+net-analyzer/zeek 4.0.3: The Zeek Network Security Monitor
 net-firewall/pkt_netflow 9999: Standalone kernel netflow module
 net-misc/rsync-bpc 3.1.3.0: rsync version needed for BackupPC 4.x
 net-misc/smcroute 2.4.4: Static multicast routing for UNIX
