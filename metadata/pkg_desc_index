@@ -11,7 +11,7 @@ acct-user/smcroute 0: user for smcroute
 app-backup/backuppc 4.4.0: High-performance backups to a server's disk
 app-misc/nsjail 9999: nsjail is a process isolation tool for Linux.
 dev-go/broccoli 1.0.3: Utility to to embed static files in Go using brotli compression
-dev-libs/caf 0.18.3: The C++ Actor Framework (CAF)
+dev-libs/caf 0.18.3 0.18.5: The C++ Actor Framework (CAF)
 dev-perl/BackupPC-XS 0.62: BackupPC::XS is a perl-callable module for BackupPC
 dev-python/Authlib 0.15.3: The ultimate Python library in building OAuth and OpenID Connect servers.
 net-analyzer/nfdump 1.6.23: A set of tools to collect and process netflow data
