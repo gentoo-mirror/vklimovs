@@ -24,5 +24,12 @@ net-analyzer/zeek:sendmail - Enables Zeek and ZeekControl to send mail
 net-analyzer/zeek:tcmalloc - Enable Google's performance analysis tools
 net-analyzer/zeek:tools - Auxiliary tools for Bro: adtrace, zeek-cut, rst
 net-analyzer/zeek:zeekctl - Enable ZeekControl, a tool for operating Zeek installations
+net-dns/getdns:getdns-query - Add getdns_query tool
+net-dns/getdns:getdns-server-mon - Add getdns_server_mon tool
+net-dns/getdns:libev - Enable dev-libs/libev support
+net-dns/getdns:libevent - Enable dev-libs/libevent support
+net-dns/getdns:libuv - Enable dev-libs/libuv support
+net-dns/getdns:stubby - Add Stubby DNS Privacy Deamon
+net-dns/getdns:unbound - Enable net-dns/unbound libraries support
 net-misc/rsync-bpc:system-zlib - Use system zlib instead of bundled one. This is incompatible with older rsync releases!
 net-misc/smcroute:mrdisc - Enable multicast router discovery, described in RFC4286.
