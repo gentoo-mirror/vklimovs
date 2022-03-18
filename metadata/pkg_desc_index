@@ -1,9 +1,7 @@
-acct-group/authelia 0: group for authelia
 acct-group/backuppc 0: group for backuppc
 acct-group/nfcapd 0: group for nfcapd
 acct-group/nfsen 0: group for nfsen
 acct-group/smcroute 0: group for smcroute
-acct-user/authelia 0: user for authelia
 acct-user/backuppc 0: user for backuppc
 acct-user/nfcapd 0: user for nfcapd
 acct-user/nfsen 0: user for nfsen
