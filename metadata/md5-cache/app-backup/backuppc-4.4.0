@@ -11,5 +11,5 @@ LICENSE=GPL-3
 RDEPEND=>=dev-perl/BackupPC-XS-0.62 dev-lang/perl dev-perl/Archive-Zip dev-perl/CGI dev-perl/File-Listing dev-perl/File-RsyncP dev-perl/Time-ParseDate >=net-misc/rsync-bpc-3.1.2.2 rrdtool? ( net-analyzer/rrdtool[graph] ) rss? ( dev-perl/XML-RSS ) samba? ( net-fs/samba ) acct-group/backuppc acct-user/backuppc app-arch/par2cmdline net-misc/rsync virtual/httpd-cgi virtual/mta app-admin/webapp-config
 SLOT=0
 SRC_URI=https://github.com/backuppc/backuppc/releases/download/4.4.0/BackupPC-4.4.0.tar.gz
-_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	systemd	2736b403a83f194b59b767f3b344c2c1	webapp	60f2eb31dec733d05e8114cc078ebc33
+_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	systemd	2736b403a83f194b59b767f3b344c2c1	webapp	cbf94d7383f416c5ead4634aa89916a9
 _md5_=a877553598702d2a6f20d061bd061ac8
