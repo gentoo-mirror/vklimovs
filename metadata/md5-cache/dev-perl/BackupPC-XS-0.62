@@ -1,14 +1,16 @@
-BDEPEND=dev-lang/perl
+BDEPEND=dev-lang/perl test? ( virtual/perl-Test-Simple )
 DEFINED_PHASES=compile configure install prepare test
 DEPEND=net-misc/rsync-bpc dev-perl/Module-Build dev-lang/perl
 DESCRIPTION=BackupPC::XS is a perl-callable module for BackupPC
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/backuppc/backuppc-xs/
 INHERIT=perl-module
+IUSE=test
 KEYWORDS=amd64 x86
 LICENSE=GPL-3
 RDEPEND=net-misc/rsync-bpc dev-lang/perl:=
+RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/C/CB/CBARRATT/BackupPC-XS-0.62.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	perl-functions	fea344a91ebf37efadf172c6a3de5a72	perl-module	8eed4e2982026c684ff7c19cd4c88ed0
-_md5_=09998c2eec8a59785a6dfb1c13f04bd1
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	perl-functions	fea344a91ebf37efadf172c6a3de5a72	readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55	perl-module	8eed4e2982026c684ff7c19cd4c88ed0
+_md5_=2df3153363db0a1667f91a481dda07ec
