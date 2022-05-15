@@ -40,7 +40,6 @@ multilib_src_configure() {
 		-DCAF_ENABLE_ACTOR_PROFILER="$(usex debug)"
 		-DCAF_ENABLE_OPENSSL_MODULE="$(usex openssl)"
 		-DCAF_ENABLE_RUNTIME_CHECKS="$(usex debug)"
-		-DCAF_ENABLE_UTILITY_TARGETS="$(usex debug)"
 		-DCAF_LOG_LEVEL="$(usex debug DEBUG QUIET)"
 		-DLIBRARY_OUTPUT_PATH="$(get_libdir)"
 	)
@@ -50,7 +49,6 @@ multilib_src_configure() {
 			-DCAF_ENABLE_CURL_EXAMPLES="$(usex examples)"
 			-DCAF_ENABLE_EXAMPLES="$(usex examples)"
 			-DCAF_ENABLE_PROTOBUF_EXAMPLES="$(usex examples)"
-			-DCAF_ENABLE_QT5_EXAMPLES="$(usex examples)"
 			-DCAF_ENABLE_TESTING="$(usex test)"
 			-DCAF_ENABLE_TOOLS="$(usex tools)"
 		)
@@ -59,7 +57,6 @@ multilib_src_configure() {
 			-DCAF_ENABLE_CURL_EXAMPLES=no
 			-DCAF_ENABLE_EXAMPLES=no
 			-DCAF_ENABLE_PROTOBUF_EXAMPLES=no
-			-DCAF_ENABLE_QT5_EXAMPLES=no
 			-DCAF_ENABLE_TESTING=no
 			-DCAF_ENABLE_TOOLS=no
 		)
