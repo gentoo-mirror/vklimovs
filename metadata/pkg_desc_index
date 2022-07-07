@@ -11,7 +11,7 @@ app-misc/nsjail 9999: nsjail is a process isolation tool for Linux.
 dev-libs/caf 0.18.5 0.18.6: The C++ Actor Framework (CAF)
 dev-perl/BackupPC-XS 0.62: BackupPC::XS is a perl-callable module for BackupPC
 dev-python/Authlib 0.15.5: The ultimate Python library in building OAuth and OpenID Connect servers.
-net-analyzer/nfdump 1.6.23: A set of tools to collect and process netflow data
+net-analyzer/nfdump 1.6.23 1.6.24: A set of tools to collect and process netflow data
 net-analyzer/nfsen 1.3.8: Graphical netflow analyzer using nfdump tools
 net-analyzer/zeek 4.0.5 4.2.0: The Zeek Network Security Monitor
 net-firewall/pkt_netflow 9999-r1: Standalone kernel netflow module
