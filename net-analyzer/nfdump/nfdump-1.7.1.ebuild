@@ -27,8 +27,8 @@ COMMON_DEPEND="app-arch/bzip2
 
 DEPEND="${COMMON_DEPEND}"
 
-BDEPEND="sys-devel/flex
-	virtual/yacc
+BDEPEND="app-alternatives/yacc
+	sys-devel/flex
 	doc? ( app-doc/doxygen[dot] )
 "
 
@@ -39,6 +39,7 @@ RDEPEND="${COMMON_DEPEND}
 
 PATCHES=(
 	"${FILESDIR}"/${PN}-1.6.19-libft.patch
+	"${FILESDIR}"/${PN}-1.7.1-allow-repeater-argument.patch
 )
 
 DOCS=( AUTHORS ChangeLog README.md )
