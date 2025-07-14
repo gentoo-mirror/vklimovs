@@ -9,5 +9,5 @@ LICENSE=Apache-2.0
 PROPERTIES=live
 RDEPEND=dev-libs/protobuf dev-libs/libnl:3
 SLOT=0
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0
 _md5_=5681bb8529ca71b4fddb21ae32df30a2
